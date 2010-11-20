@@ -942,12 +942,9 @@ format_float_internal(PyObject *value,
     LocaleInfo locale;
 
     /* Alternate is not allowed on floats. */
-    if (format->alternate) {
-        PyErr_SetString(PyExc_ValueError,
-                        "Alternate form (#) not allowed in float format "
-                        "specifier");
-        goto done;
-    }
+   if (format->alternate)  
+		flags |= Py_DTSF_ALT;
+
 
     if (type == '\0') {
         /* Omitted type specifier.  Behaves in the same way as repr(x)
