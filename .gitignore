@@ -24,3 +24,4 @@ tags
 Lib/lib2to3/Grammar3.2.0.alpha.2.pickle
 Lib/lib2to3/PatternGrammar3.2.0.alpha.2.pickle
 autom4te.cache
+Modules/ld_so_aix
