@@ -30,3 +30,510 @@ python.exe
 *.pyc
 *.a
 python.exe-gdb.py
+
+# /
+/.purify
+/autom4te.cache
+/config.log
+/config.cache
+/config.status
+/config.status.lineno
+/db_home
+/Makefile
+/buildno
+/python
+/build
+/Makefile.pre
+/platform
+/pyconfig.h
+/libpython*.a
+/python.exe
+/python-gdb.py
+/python.exe-gdb.py
+/reflog.txt
+/tags
+/TAGS
+/.gdb_history
+/pybuilddir.txt
+
+# /Demo/distutils/test2to3/
+/Demo/distutils/test2to3/build
+
+# /Demo/embed/
+/Demo/embed/demo
+/Demo/embed/loop
+/Demo/embed/importexc
+
+# /Demo/tkinter/guido/
+/Demo/tkinter/guido/__pycache__
+
+# /Doc/
+/Doc/build
+/Doc/dist
+
+# /Doc/tools/
+/Doc/tools/sphinx
+/Doc/tools/jinja2
+/Doc/tools/jinja
+/Doc/tools/pygments
+/Doc/tools/docutils
+/Doc/tools/*.py[co]
+
+# /Doc/tools/sphinxext/
+/Doc/tools/sphinxext/*.pyc
+/Doc/tools/sphinxext/*.pyo
+
+# /Grammar/
+/Grammar/graminit.h
+/Grammar/graminit.c
+/Grammar/Makefile
+
+# /Lib/
+/Lib/__pycache__
+
+# /Lib/concurrent/
+/Lib/concurrent/__pycache__
+
+# /Lib/concurrent/futures/
+/Lib/concurrent/futures/__pycache__
+
+# /Lib/ctypes/
+/Lib/ctypes/__pycache__
+
+# /Lib/ctypes/macholib/
+/Lib/ctypes/macholib/__pycache__
+
+# /Lib/ctypes/test/
+/Lib/ctypes/test/__pycache__
+
+# /Lib/curses/
+/Lib/curses/__pycache__
+
+# /Lib/dbm/
+/Lib/dbm/__pycache__
+
+# /Lib/distutils/
+/Lib/distutils/__pycache__
+
+# /Lib/distutils/command/
+/Lib/distutils/command/__pycache__
+
+# /Lib/distutils/tests/
+/Lib/distutils/tests/__pycache__
+
+# /Lib/email/
+/Lib/email/__pycache__
+
+# /Lib/email/mime/
+/Lib/email/mime/__pycache__
+
+# /Lib/email/test/
+/Lib/email/test/__pycache__
+
+# /Lib/email/test/data/
+/Lib/email/test/data/__pycache__
+
+# /Lib/encodings/
+/Lib/encodings/__pycache__
+
+# /Lib/html/
+/Lib/html/__pycache__
+
+# /Lib/http/
+/Lib/http/__pycache__
+
+# /Lib/idlelib/
+/Lib/idlelib/__pycache__
+
+# /Lib/idlelib/Icons/
+/Lib/idlelib/Icons/__pycache__
+
+# /Lib/importlib/
+/Lib/importlib/__pycache__
+
+# /Lib/importlib/test/
+/Lib/importlib/test/__pycache__
+
+# /Lib/importlib/test/builtin/
+/Lib/importlib/test/builtin/__pycache__
+
+# /Lib/importlib/test/extension/
+/Lib/importlib/test/extension/__pycache__
+
+# /Lib/importlib/test/frozen/
+/Lib/importlib/test/frozen/__pycache__
+
+# /Lib/importlib/test/import_/
+/Lib/importlib/test/import_/__pycache__
+
+# /Lib/importlib/test/source/
+/Lib/importlib/test/source/__pycache__
+
+# /Lib/json/
+/Lib/json/__pycache__
+
+# /Lib/json/tests/
+/Lib/json/tests/__pycache__
+
+# /Lib/lib2to3/
+/Lib/lib2to3/__pycache__
+/Lib/lib2to3/*.pickle
+
+# /Lib/lib2to3/fixes/
+/Lib/lib2to3/fixes/__pycache__
+
+# /Lib/lib2to3/pgen2/
+/Lib/lib2to3/pgen2/__pycache__
+
+# /Lib/lib2to3/tests/
+/Lib/lib2to3/tests/__pycache__
+
+# /Lib/lib2to3/tests/data/
+/Lib/lib2to3/tests/data/__pycache__
+
+# /Lib/lib2to3/tests/data/fixers/
+/Lib/lib2to3/tests/data/fixers/__pycache__
+
+# /Lib/lib2to3/tests/data/fixers/myfixes/
+/Lib/lib2to3/tests/data/fixers/myfixes/__pycache__
+
+# /Lib/logging/
+/Lib/logging/__pycache__
+
+# /Lib/msilib/
+/Lib/msilib/__pycache__
+
+# /Lib/multiprocessing/
+/Lib/multiprocessing/__pycache__
+
+# /Lib/multiprocessing/dummy/
+/Lib/multiprocessing/dummy/__pycache__
+
+# /Lib/plat-aix4/
+/Lib/plat-aix4/__pycache__
+
+# /Lib/plat-darwin/
+/Lib/plat-darwin/__pycache__
+
+# /Lib/plat-freebsd4/
+/Lib/plat-freebsd4/__pycache__
+
+# /Lib/plat-freebsd5/
+/Lib/plat-freebsd5/__pycache__
+
+# /Lib/plat-freebsd6/
+/Lib/plat-freebsd6/__pycache__
+
+# /Lib/plat-freebsd7/
+/Lib/plat-freebsd7/__pycache__
+
+# /Lib/plat-freebsd8/
+/Lib/plat-freebsd8/__pycache__
+
+# /Lib/plat-generic/
+/Lib/plat-generic/__pycache__
+
+# /Lib/plat-linux2/
+/Lib/plat-linux2/__pycache__
+
+# /Lib/plat-netbsd1/
+/Lib/plat-netbsd1/__pycache__
+
+# /Lib/plat-next3/
+/Lib/plat-next3/__pycache__
+
+# /Lib/plat-os2emx/
+/Lib/plat-os2emx/__pycache__
+
+# /Lib/plat-sunos5/
+/Lib/plat-sunos5/__pycache__
+
+# /Lib/plat-unixware7/
+/Lib/plat-unixware7/__pycache__
+
+# /Lib/pydoc_data/
+/Lib/pydoc_data/__pycache__
+
+# /Lib/site-packages/
+/Lib/site-packages/__pycache__
+
+# /Lib/sqlite3/
+/Lib/sqlite3/__pycache__
+
+# /Lib/sqlite3/test/
+/Lib/sqlite3/test/__pycache__
+
+# /Lib/test/
+/Lib/test/__pycache__
+
+# /Lib/test/crashers/
+/Lib/test/crashers/__pycache__
+
+# /Lib/test/data/
+/Lib/test/data/*
+
+# /Lib/test/decimaltestdata/
+/Lib/test/decimaltestdata/__pycache__
+
+# /Lib/test/encoded_modules/
+/Lib/test/encoded_modules/__pycache__
+
+# /Lib/test/leakers/
+/Lib/test/leakers/__pycache__
+
+# /Lib/test/tracedmodules/
+/Lib/test/tracedmodules/__pycache__
+
+# /Lib/test/xmltestdata/
+/Lib/test/xmltestdata/__pycache__
+
+# /Lib/tkinter/
+/Lib/tkinter/__pycache__
+
+# /Lib/tkinter/test/
+/Lib/tkinter/test/__pycache__
+
+# /Lib/tkinter/test/test_tkinter/
+/Lib/tkinter/test/test_tkinter/__pycache__
+
+# /Lib/tkinter/test/test_ttk/
+/Lib/tkinter/test/test_ttk/__pycache__
+
+# /Lib/turtledemo/
+/Lib/turtledemo/__pycache__
+
+# /Lib/unittest/
+/Lib/unittest/__pycache__
+
+# /Lib/unittest/test/
+/Lib/unittest/test/__pycache__
+
+# /Lib/urllib/
+/Lib/urllib/__pycache__
+
+# /Lib/wsgiref/
+/Lib/wsgiref/__pycache__
+
+# /Lib/xml/
+/Lib/xml/__pycache__
+
+# /Lib/xml/dom/
+/Lib/xml/dom/__pycache__
+
+# /Lib/xml/etree/
+/Lib/xml/etree/__pycache__
+
+# /Lib/xml/parsers/
+/Lib/xml/parsers/__pycache__
+
+# /Lib/xml/sax/
+/Lib/xml/sax/__pycache__
+
+# /Lib/xmlrpc/
+/Lib/xmlrpc/__pycache__
+
+# /Mac/
+/Mac/Python
+
+# /Mac/BuildScript/
+/Mac/BuildScript/seticon.app
+
+# /Mac/PythonLauncher/
+/Mac/PythonLauncher/build
+
+# /Misc/
+/Misc/python-wing.wpu
+/Misc/python.pc
+/Misc/python-wing4.wpu
+/Misc/python-wing3.wpu
+
+# /Modules/
+/Modules/Setup
+/Modules/Makefile.pre
+/Modules/Setup.thread
+/Modules/Setup.config
+/Modules/Setup.local
+/Modules/hassignal
+/Modules/config.c
+/Modules/Makefile
+/Modules/add2lib
+/Modules/ld_so_aix
+
+# /Objects/
+/Objects/add2lib
+/Objects/Makefile
+
+# /PC/
+/PC/python_nt.h
+/PC/python_nt_d.h
+/PC/pythonnt_rc.h
+/PC/pythonnt_rc_d.h
+
+# /PC/VC6/
+/PC/VC6/*.WSM
+/PC/VC6/*.bsc
+/PC/VC6/*.dbg
+/PC/VC6/*.dll
+/PC/VC6/*.exe
+/PC/VC6/*.exp
+/PC/VC6/*.ilk
+/PC/VC6/*.lib
+/PC/VC6/*.ncb
+/PC/VC6/*.opt
+/PC/VC6/*.pdb
+/PC/VC6/*.plg
+/PC/VC6/*.pyd
+/PC/VC6/*-temp-*
+
+# /PC/VS7.1/
+/PC/VS7.1/*.WSM
+/PC/VS7.1/*.bsc
+/PC/VS7.1/*.dbg
+/PC/VS7.1/*.dll
+/PC/VS7.1/*.exe
+/PC/VS7.1/*.exp
+/PC/VS7.1/*.ilk
+/PC/VS7.1/*.lib
+/PC/VS7.1/*.ncb
+/PC/VS7.1/*.opt
+/PC/VS7.1/*.pdb
+/PC/VS7.1/*.plg
+/PC/VS7.1/*.pyd
+/PC/VS7.1/*-temp-*
+/PC/VS7.1/*.suo
+/PC/VS7.1/NormalizationTest-3.2.0.txt
+/PC/VS7.1/JOHAB.TXT
+/PC/VS7.1/EUC-KR.TXT
+/PC/VS7.1/EUC-JP.TXT
+/PC/VS7.1/EUC-JISX0213.TXT
+/PC/VS7.1/EUC-CN.TXT
+/PC/VS7.1/CP950.TXT
+/PC/VS7.1/CP949.TXT
+/PC/VS7.1/CP936.TXT
+/PC/VS7.1/CP932.TXT
+/PC/VS7.1/BIG5HKSCS.TXT
+/PC/VS7.1/BIG5.TXT
+/PC/VS7.1/SHIFT_JISX0213.TXT
+/PC/VS7.1/SHIFTJIS.TXT
+
+# /PC/VS8.0/
+/PC/VS8.0/*.dll
+/PC/VS8.0/*.exe
+/PC/VS8.0/*.pyd
+/PC/VS8.0/*.lib
+/PC/VS8.0/*.exp
+/PC/VS8.0/*.o
+/PC/VS8.0/*.pyc
+/PC/VS8.0/*.pyo
+/PC/VS8.0/*.user
+/PC/VS8.0/*.bsc
+/PC/VS8.0/*.ilk
+/PC/VS8.0/*.pdb
+/PC/VS8.0/pcbuild.ncb
+/PC/VS8.0/pcbuild.suo
+/PC/VS8.0/Win32-temp-Debug
+/PC/VS8.0/Win32-temp-Release
+/PC/VS8.0/Debug
+/PC/VS8.0/Release
+/PC/VS8.0/amd64
+/PC/VS8.0/x64-temp-Debug
+/PC/VS8.0/x64-temp-Release
+/PC/VS8.0/Win32-pgi
+
+# /PC/bdist_wininst/
+/PC/bdist_wininst/temp-debug
+/PC/bdist_wininst/temp-release
+/PC/bdist_wininst/wininst-7.1.ncb
+/PC/bdist_wininst/wininst-7.1.suo
+/PC/bdist_wininst/wininst.ncb
+/PC/bdist_wininst/wininst.opt
+/PC/bdist_wininst/wininst.pdb
+/PC/bdist_wininst/wininst.plg
+
+# /PC/example_nt/
+/PC/example_nt/?
+/PC/example_nt/example.ncb
+/PC/example_nt/?
+/PC/example_nt/release
+/PC/example_nt/?
+/PC/example_nt/debug
+/PC/example_nt/?
+/PC/example_nt/.c
+/PC/example_nt/?
+/PC/example_nt/example.mdp
+
+# /PCbuild/
+/PCbuild/*.dll
+/PCbuild/*.exe
+/PCbuild/*.pyd
+/PCbuild/*.lib
+/PCbuild/*.exp
+/PCbuild/*.o
+/PCbuild/*.pyc
+/PCbuild/*.pyo
+/PCbuild/*.user
+/PCbuild/*.bsc
+/PCbuild/*.ilk
+/PCbuild/*.pdb
+/PCbuild/pcbuild.ncb
+/PCbuild/pcbuild.suo
+/PCbuild/Win32-temp-Debug
+/PCbuild/Win32-temp-Release
+/PCbuild/Debug
+/PCbuild/Release
+/PCbuild/amd64
+/PCbuild/x64-temp-Debug
+/PCbuild/x64-temp-Release
+/PCbuild/Win32-pgi
+/PCbuild/Win32-pgo
+/PCbuild/Win32-temp-pgi
+/PCbuild/x64-pgi
+/PCbuild/x64-pgo
+/PCbuild/x64-temp-pgi
+
+# /Parser/
+/Parser/Makefile
+/Parser/pgen
+/Parser/pgen.exe
+/Parser/pgen.stamp
+/Parser/add2lib
+/Parser/asdl.pyc
+/Parser/asdl_c.pyc
+/Parser/spark.pyc
+
+# /Python/
+/Python/Makefile
+/Python/add2lib
+
+# /Tools/buildbot/
+/Tools/buildbot/kill_python.exe
+
+# /Tools/freeze/
+/Tools/freeze/M_*.c
+/Tools/freeze/*.o
+/Tools/freeze/*.py[co]
+/Tools/freeze/Makefile
+/Tools/freeze/config.c
+/Tools/freeze/frozen.c
+/Tools/freeze/hello
+
+# /Tools/msi/
+/Tools/msi/*.pyc
+/Tools/msi/*.msi
+/Tools/msi/msisupport.dll
+/Tools/msi/msisupport.exp
+/Tools/msi/msisupport.obj
+/Tools/msi/msisupport.lib
+
+# /Tools/pybench/
+/Tools/pybench/*.pyc
+/Tools/pybench/*.pyo
+
+# /Tools/pybench/package/
+/Tools/pybench/package/*.pyc
+/Tools/pybench/package/*.pyo
+
+# /Tools/scripts/
+/Tools/scripts/*.pyc
+/Tools/scripts/*.pyo
+/Tools/scripts/__pycache__
