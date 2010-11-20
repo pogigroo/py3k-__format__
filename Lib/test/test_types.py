@@ -519,26 +519,21 @@ class TypesTests(unittest.TestCase):
                 self.assertRaises(ValueError, format, 1e-100, format_spec)
                 self.assertRaises(ValueError, format, -1e-100, format_spec)
 
-        # alternate float formatting
-
-		test(1.0, '0e'  , '1.000000e+00')
-		test(1.0, '#0e'  , '1.000000e+00')
-		test(1.0, '.0e', '1.e+00')
-		test(1.0, '#.0e', '1.e+00')
-		test(1.0, '.1e', '1.0e+00')
-		test(1.0, '#.1e', '1.0e+00')
-		test(1.0, '0f'  , '1.000000' )
-		test(1.0, '#0f' , '1.000000' )
-		test(1.0, '.0f' , '1'        )
-		test(1.0, '#.0f', '1.'       )
-		test(1.0, '.1f' , '1.0'      )
-		test(1.0, '#.1f', '1.0'      )
+        # Alternate float formatting
+        test(1.0, '0e', '1.000000e+00')
+        test(1.0, '#0e', '1.000000e+00')
+        test(1.0, '.0e', '1e+00')
+        test(1.0, '#.0e', '1.e+00')
+        test(1.0, '.1e', '1.0e+00')
+        test(1.0, '#.1e', '1.0e+00')
+        test(1.0, '0f', '1.000000' )
+        test(1.0, '#0f', '1.000000' )
+        test(1.0, '.0f', '1')
+        test(1.0, '#.0f', '1.')
+        test(1.0, '.1f', '1.0')
+        test(1.0, '#.1f', '1.0')
         test(1.1, 'g', '1.1')
         test(1.1, '#g', '1.10000')
-
-        # Alternate formatting is not supported
- #       self.assertRaises(ValueError, format, 0.0, '#')
- #       self.assertRaises(ValueError, format, 0.0, '#20f')
 
         # Issue 6902
         test(12345.6, "0<20", '12345.60000000000000')
