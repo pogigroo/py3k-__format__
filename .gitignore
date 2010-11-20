@@ -21,8 +21,8 @@ pyconfig.h
 python
 python-gdb.py
 tags
-Lib/lib2to3/Grammar3.2.0.alpha.2.pickle
-Lib/lib2to3/PatternGrammar3.2.0.alpha.2.pickle
+Lib/lib2to3/Grammar3.2.0.alpha.*.pickle
+Lib/lib2to3/PatternGrammar3.2.0.alpha.*.pickle
 autom4te.cache
 Modules/ld_so_aix
 python.exe
