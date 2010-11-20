@@ -10,6 +10,9 @@ What's New in Python 3.2 Beta 1?
 Core and Builtins
 -----------------
 
+- Issue #10255: Fix reference leak in Py_InitializeEx().  Patch by Neil
+  Schemenauer.
+
 - Issue #4925: Add filename to error message when executable can't be found in
   subprocess.
 
@@ -26,6 +29,11 @@ Core and Builtins
 
 Library
 -------
+
+- Issue #8078: Add constants for higher baud rates in the termios module.
+  Patch by Rodolpho Eckhardt.
+
+- Issue #10407: Fix two NameErrors in distutils.
 
 - Issue #10371: Deprecated undocumented functions in the trace module.
 
