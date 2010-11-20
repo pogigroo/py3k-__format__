@@ -1103,10 +1103,7 @@ format_complex_internal(PyObject *value,
 
     /* Alternate is not allowed on complex. */
     if (format->alternate) {
-        PyErr_SetString(PyExc_ValueError,
-                        "Alternate form (#) not allowed in complex format "
-                        "specifier");
-        goto done;
+      flags |= Py_DTSF_ALT;
     }
 
     /* Neither is zero pading. */
