@@ -350,9 +350,21 @@ following:
    |         | positive numbers, and a minus sign on negative numbers.  |
    +---------+----------------------------------------------------------+
 
-The ``'#'`` option is only valid for integers, and only for binary, octal, or
-hexadecimal output.  If present, it specifies that the output will be prefixed
-by ``'0b'``, ``'0o'``, or ``'0x'``, respectively.
+
+The ``'#'`` option  causes the "alternate form" to be used for the conversion.  The alternate form
+is defined differently for different types.  This option is only valid for the integes and floats.
+
+For the integers when binary, octal, or hexadecimal output is used this opton adds
+the prefix respective
+``'0b'``, ``'0o'``, or ``'0x'`` to output value.
+
+For the floats the alternate form causes the result of conversion a 
+floating-point number to always contain a decimal-point character, even if 
+no digits follow it. (Normally, a decimal-point character appears in the 
+result of these conversions only if a digit follows it.) For g and G 
+conversions, trailing zeros are not removed from the result. For other 
+conversions, the behavior is undefined."
+
 
 The ``','`` option signals the use of a comma for a thousands separator.
 For a locale aware separator, use the ``'n'`` integer presentation type
